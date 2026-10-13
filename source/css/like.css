@@ -1,0 +1,35 @@
+/* Like button style */
+#like-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0.4rem 0 1rem;
+  padding: 6px 16px;
+  border: 1px solid var(--color-secondary, #ccc);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+#like-btn:hover {
+  border-color: #e0533d;
+  color: #e0533d;
+  transform: translateY(-1px);
+}
+#like-btn .like-icon {
+  font-size: 1rem;
+}
+#like-btn.liked {
+  border-color: #e0533d;
+  color: #e0533d;
+}
+#like-btn.liked .like-icon {
+  animation: like-pop 0.3s ease;
+}
+@keyframes like-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}

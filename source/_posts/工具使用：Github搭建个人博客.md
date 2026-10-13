@@ -42,7 +42,7 @@ tags:
 
 ​	我先安装的这两个，提示词为：我需要安装Git和Node.js到本地环境，耗时4分钟安装完成：
 
-![1](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\1.jpg)
+{% asset_img 1.jpg 1 %}
 
 ​	其中，Git我之前已经安装过了，如果大家没安装，AI也会帮助大家直接安装的。
 
@@ -55,7 +55,7 @@ node -v
 npm -v
 ```
 
-![2](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\2.jpg)
+{% asset_img 2.jpg 2 %}
 
 > 安装hexo
 
@@ -63,23 +63,23 @@ npm -v
 
 ​	**说明：**因为我也是第一次搭建，并且没有怎么详细研究，参考的博客并没有说需要安装hexo，我这里问了一嘴才知道需要安装。
 
-![3](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\3.jpg)
+{% asset_img 3.jpg 3 %}
 
 ​	检测是否安装成功：
 
-![4](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\4.jpg)
+{% asset_img 4.jpg 4 %}
 
 > GitHub仓库创建
 
 ​	打开GitHub，登录，进入主页，点击创建仓库：
 
-![5](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\5.jpg)
+{% asset_img 5.jpg 5 %}
 
 ​	然后创建仓库即可，需要注意的点：
 
 - **仓库名字必须是《你的用户名.github.io》，比如我的用户名是small-5994，因此仓库名字就是：small-5994.github.io**
 - 选择公开public
-- 描述随便写![6](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\6.jpg)
+- 描述随便写{% asset_img 6.jpg 6 %}
 
 #### 2.3 初始化Hexo
 
@@ -105,7 +105,7 @@ npm install
 hexo s
 ```
 
-![7](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\7.jpg)
+{% asset_img 7.jpg 7 %}
 
 #### 2.4 主题部署与GitHub链接
 
@@ -113,7 +113,7 @@ hexo s
 
 ​	**备注**：workbuddy的工作空间，必须选择你刚刚创建的博客网站文件夹
 
-![8](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\8.jpg)
+{% asset_img 8.jpg 8 %}
 
 ​	好的，正式开始。
 
@@ -121,13 +121,13 @@ hexo s
 
 ​	在实现过程中，可能需要补充一个GitHub令牌信息，操作如下：
 
-![9](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\9.jpg)
+{% asset_img 9.jpg 9 %}
 
 ​	**这里补充说明，后期证明，在第7步的时候，还需要勾选workflow**。
 
 ​	最终，AI交付给我的结果如下：
 
-![10](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\10.jpg)
+{% asset_img 10.jpg 10 %}
 
 ​	存在一些小问题：网站成立时间不对 + 图中左边的分类为英文
 
@@ -141,7 +141,7 @@ hexo s
 
 ​	更改后结果如下：
 
-### ![11](G:\note\My_Blog\source\_posts\工具使用：Github搭建个人博客\11.jpg)3. 日常维护
+### {% asset_img 11.jpg 11 %}3. 日常维护
 
 #### 3.1 更新/新建文章
 
