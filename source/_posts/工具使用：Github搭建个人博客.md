@@ -42,7 +42,7 @@ tags:
 
 ​	我先安装的这两个，提示词为：我需要安装Git和Node.js到本地环境，耗时4分钟安装完成：
 
-{% asset_img 1.jpg 1 %}
+{% asset_img 1.jpg %}
 
 ​	其中，Git我之前已经安装过了，如果大家没安装，AI也会帮助大家直接安装的。
 
@@ -55,7 +55,7 @@ node -v
 npm -v
 ```
 
-{% asset_img 2.jpg 2 %}
+{% asset_img 2.jpg %}
 
 > 安装hexo
 
@@ -63,17 +63,17 @@ npm -v
 
 ​	**说明：**因为我也是第一次搭建，并且没有怎么详细研究，参考的博客并没有说需要安装hexo，我这里问了一嘴才知道需要安装。
 
-{% asset_img 3.jpg 3 %}
+{% asset_img 3.jpg %}
 
 ​	检测是否安装成功：
 
-{% asset_img 4.jpg 4 %}
+{% asset_img 4.jpg %}
 
 > GitHub仓库创建
 
 ​	打开GitHub，登录，进入主页，点击创建仓库：
 
-{% asset_img 5.jpg 5 %}
+{% asset_img 5.jpg %}
 
 ​	然后创建仓库即可，需要注意的点：
 
@@ -81,7 +81,7 @@ npm -v
 - 选择公开public
 - 描述随便写
 
-{% asset_img 6.jpg 6 %}
+{% asset_img 6.jpg %}
 
 #### 2.3 初始化Hexo
 
@@ -107,7 +107,7 @@ npm install
 hexo s
 ```
 
-{% asset_img 7.jpg 7 %}
+{% asset_img 7.jpg %}
 
 #### 2.4 主题部署与GitHub链接
 
@@ -115,7 +115,7 @@ hexo s
 
 ​	**备注**：workbuddy的工作空间，必须选择你刚刚创建的博客网站文件夹
 
-{% asset_img 8.jpg 8 %}
+{% asset_img 8.jpg %}
 
 ​	好的，正式开始。
 
@@ -123,13 +123,13 @@ hexo s
 
 ​	在实现过程中，可能需要补充一个GitHub令牌信息，操作如下：
 
-{% asset_img 9.jpg 9 %}
+{% asset_img 9.jpg %}
 
 ​	**这里补充说明，后期证明，在第7步的时候，还需要勾选workflow**。
 
 ​	最终，AI交付给我的结果如下：
 
-{% asset_img 10.jpg 10 %}
+{% asset_img 10.jpg %}
 
 ​	存在一些小问题：网站成立时间不对 + 图中左边的分类为英文
 
@@ -143,7 +143,7 @@ hexo s
 
 ​	更改后结果如下：
 
-{% asset_img 11.jpg 11 %}
+{% asset_img 11.jpg %}
 
 ### 3. 日常维护
 
@@ -241,11 +241,11 @@ tags:                # 标签：并列结构，可多个
 （这里你们要选择自己对应的仓库）
 ```
 
-{% asset_img 12.jpg 12 %}
+{% asset_img 12.jpg %}
 
 ​	最终效果如下：
 
-{% asset_img 13.jpg 13 %}
+{% asset_img 13.jpg %}
 
 ### 5. 总结
 
