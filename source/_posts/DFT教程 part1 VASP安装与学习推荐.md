@@ -81,31 +81,31 @@ categories:
 
 1. 去阿里云找到对应版本的，然后下载：https://mirrors.aliyun.com/centos/8.5.2111/isos/x86_64/
 
-![1](.\images\1.png)
+![1](.\DFT教程 part1 VASP安装与学习推荐\1.png)
 
 2. 打开安装好的Vmware，点击“创建新的虚拟机”，然后使用典型创建即可：
 
-![2](.\images\2.png)
+![2](.\DFT教程 part1 VASP安装与学习推荐\2.png)
 
 3. 选择“稍微安装操作系统”：我们等创建完再指定ISO源
 
-<img src=".\images\3.png" alt="3" style="zoom:50%;" />
+<img src=".\DFT教程 part1 VASP安装与学习推荐\3.png" alt="3" style="zoom:50%;" />
 
 4. 选择“Linux”，再选择“Centos8 64位”：
 
-<img src=".\images\4.png" alt="4" style="zoom:50%;" />
+<img src=".\DFT教程 part1 VASP安装与学习推荐\4.png" alt="4" style="zoom:50%;" />
 
 5. 虚拟机名称随意，位置必须全英文：
 
-<img src=".\images\5.png" alt="5" style="zoom:50%;" />
+<img src=".\DFT教程 part1 VASP安装与学习推荐\5.png" alt="5" style="zoom:50%;" />
 
 6. **注意：最大磁盘大小，建议能多给一些就多给一些，因为后续装的东西挺多的，建议至少60GB，也不要怕觉得给太大了会咋样，这个只是划分的空间，实际占据大小会根据真实大小调节，即你只有往centos中装了60GB的东西，才会占据60GB**
 
-<img src=".\images\6.png" alt="6" style="zoom:50%;" />
+<img src=".\DFT教程 part1 VASP安装与学习推荐\6.png" alt="6" style="zoom:50%;" />
 
 7. 这里就完成了创建，然后我们指定ISO路径：
 
-![7](.\images\7.png)
+![7](.\DFT教程 part1 VASP安装与学习推荐\7.png)
 
 8. 点击“开启此虚拟机”，开始安装系统
 9. 下面我列举一下系统安装流程：
@@ -113,36 +113,36 @@ categories:
 - 鼠标点击进入虚拟机后，想要出来，按“ctrl + alt”
 - 每次设置完后，点击左上角的done就可以回到初始设置页面（图片里忘记说了）
 
-![8](.\images\8.png)
+![8](.\DFT教程 part1 VASP安装与学习推荐\8.png)
 
-![9](.\images\9.png)
+![9](.\DFT教程 part1 VASP安装与学习推荐\9.png)
 
-![10](.\images\10.png)
+![10](.\DFT教程 part1 VASP安装与学习推荐\10.png)
 
-![11](.\images\11.png)
+![11](.\DFT教程 part1 VASP安装与学习推荐\11.png)
 
-![12](.\images\12.png)
+![12](.\DFT教程 part1 VASP安装与学习推荐\12.png)
 
-![13](.\images\13.png)
+![13](.\DFT教程 part1 VASP安装与学习推荐\13.png)
 
-![14](.\images\14.png)
+![14](.\DFT教程 part1 VASP安装与学习推荐\14.png)
 
-![15](.\images\15.png)
+![15](.\DFT教程 part1 VASP安装与学习推荐\15.png)
 
-![16](.\images\16.png)
+![16](.\DFT教程 part1 VASP安装与学习推荐\16.png)
 
 10. 完成上面的步骤后，就点击“Begin Installation”，开始安装即可：
 
-![17](.\images\17.png)
+![17](.\DFT教程 part1 VASP安装与学习推荐\17.png)
 
 11. 安装完成后，点击右下角重启即可
 12. 我们登录，用户名输入root，密码输入刚刚你自己指定的密码（**注意，密码在这里不会显示，输入完成后点击回车即可，因为Linux一般用于服务器，所以密码不会显示，另外小键盘不会启用，除非你按下小键盘的NUMLK SCRLIK**）
 
-![18](.\images\18.png)
+![18](.\DFT教程 part1 VASP安装与学习推荐\18.png)
 
 13. 登录成功的标志：
 
-![19](.\images\19.png)
+![19](.\DFT教程 part1 VASP安装与学习推荐\19.png)
 
 #### 4.4 XShell安装
 
@@ -156,17 +156,17 @@ categories:
 
 - 输入：ip address，查看IP地址，比如下面，我的地址为：192.168.252.135
 
-![20](.\images\20.png)
+![20](.\DFT教程 part1 VASP安装与学习推荐\20.png)
 
 - 我们打开xshell软件：文件 -- 新建，打开创建连接窗口
 
-![21](.\images\21.png)
+![21](.\DFT教程 part1 VASP安装与学习推荐\21.png)
 
 - 然后输入IP地址、用户名和密码，即可完成登录
 
-![22](.\images\22.png)
+![22](.\DFT教程 part1 VASP安装与学习推荐\22.png)
 
-![23](.\images\23.png)
+![23](.\DFT教程 part1 VASP安装与学习推荐\23.png)
 
 #### 4.5 配置基本环境与纠错
 
@@ -189,7 +189,7 @@ sudo yum install vim
 
 ​	非常好，执行命令报错：
 
-![24](.\images\24.png)
+![24](.\DFT教程 part1 VASP安装与学习推荐\24.png)
 
 ​	错误纠结能力是必备的技巧。先百度搜索，发现原因是：2021年12月31日，已经停止了CentOS8的维护，并从官方镜像中移除CentOS 8的所有包，因此导致在使用yum源安装或更新会报上述失败错误。
 
@@ -197,7 +197,7 @@ sudo yum install vim
 
 ​	再次尝试安装：成功
 
-![25](.\images\25.png)
+![25](.\DFT教程 part1 VASP安装与学习推荐\25.png)
 
 ​	检测是否安装成功方法：
 
@@ -207,7 +207,7 @@ which xxx
 --- 不过gcc++，用g++ -v验证即可
 ```
 
-![26](.\images\26.png)
+![26](.\DFT教程 part1 VASP安装与学习推荐\26.png)
 
 #### 4.6 安装intel编译器
 
@@ -228,7 +228,7 @@ which xxx
 
 ​	下载完成后，通过xshell中的xftp把文件上传到Linux中，如下：
 
-![27](.\images\27.png)
+![27](.\DFT教程 part1 VASP安装与学习推荐\27.png)
 
 ​	然后在此文件夹下分别进行安装，命令如下：（**使用管理员权限与否，决定了最终的安装路径是在根目录下，还是用户目录下，没有区别，命令前加上`sudo`表示使用管理员权限，建议采用管理员安装，这样可以保持某些路径一致**）
 
@@ -245,21 +245,21 @@ sudo sh xxxx.sh
 
   我以Base这个安装为例，给大家演示一下如何使用，而HPC的安装也是同样的操作方式：
 
-![28](.\images\28.png)
+![28](.\DFT教程 part1 VASP安装与学习推荐\28.png)
 
-![29](.\images\29.png)
+![29](.\DFT教程 part1 VASP安装与学习推荐\29.png)
 
-![30](.\images\30.png)
+![30](.\DFT教程 part1 VASP安装与学习推荐\30.png)
 
-![31](.\images\31.png)
+![31](.\DFT教程 part1 VASP安装与学习推荐\31.png)
 
-![32](.\images\32.png)
+![32](.\DFT教程 part1 VASP安装与学习推荐\32.png)
 
-![33](.\images\33.png)
+![33](.\DFT教程 part1 VASP安装与学习推荐\33.png)
 
-![34](.\images\34.png)
+![34](.\DFT教程 part1 VASP安装与学习推荐\34.png)
 
-![35](.\images\35.png)
+![35](.\DFT教程 part1 VASP安装与学习推荐\35.png)
 
 ​	安装完成后，需要激活intel运行环境，输入以下命令（或者添加到 ~/.bashrc 文件里面）：
 
@@ -269,7 +269,7 @@ source /opt/intel/oneapi/setvars.sh
 ## 路径改为自己的路径：对于root用户，也就是用管理员权限运行的安装，默认的安装路径是/opt/intel，否则是~/intel/oneapi/xxx的路径
 ```
 
-![36](.\images\36.png)
+![36](.\DFT教程 part1 VASP安装与学习推荐\36.png)
 
 > 写到 ~/.bashrc 文件，就是写到环境变量中，如下图所示，这样每次打开Linux，会自动执行那个source语句
 
@@ -287,7 +287,7 @@ source /opt/intel/oneapi/setvars.sh
 ### 如果还不清楚，可以百度搜索vim用法
 ```
 
-![37](.\images\37.png)
+![37](.\DFT教程 part1 VASP安装与学习推荐\37.png)
 
 #### 4.7 编译intel编译器
 
@@ -300,7 +300,7 @@ make libintel64
 
 ​	编译完成后，在fftw3xf文件夹里会出现 libfftw3xf_intel.a 文件。
 
-![38](.\images\38.png)
+![38](.\DFT教程 part1 VASP安装与学习推荐\38.png)
 
 ​	说明：如果上面编译报错，一般是因为icx找不到，此时需要编辑makefile文件，如下所示：
 
@@ -311,7 +311,7 @@ make libintel64
 	_CC_intel = /opt/intel/oneapi/compiler/2024.2/bin/icx
 ```
 
-![39](.\images\39.png)
+![39](.\DFT教程 part1 VASP安装与学习推荐\39.png)
 
 ​	注意检测是否出现libfftw3xf_intel.a，检测是否编译成功。
 
@@ -330,7 +330,7 @@ cp arch/makefile.include.intel makefile.include
 
 3. 使用 vim 命令修改编译文件 makefile.include（`vim makefile.include`，或者以文本格式打开进行修改），主要修改（原本为icc和icpc，intel 24版本变为了icx和icpx，所以需要修改）：
 
-![40](.\images\40.png)
+![40](.\DFT教程 part1 VASP安装与学习推荐\40.png)
 
 ​	然后在vasp路径下（比如说你打开VASP解压后的路径，然后右键，选择open in the terminal）开始编译vasp，耗时1小时左右，注意是否报错。
 
@@ -350,7 +350,7 @@ VASP_TARGET_CPU ?= -xHOST
 
 ​	编译成功如下：
 
-![41](.\images\41.png)
+![41](.\DFT教程 part1 VASP安装与学习推荐\41.png)
 
 ​	编译成功后，会在vasp.6.3.2/bin 文件夹中出现 vasp_std、vasp_gam、vasp_ncl 三个文件：（如果只编译了std，那么只有std，**三者的区别在于运行速度等其他微小的区别，最常用的就是vasp_std**）
 
@@ -370,13 +370,13 @@ export PATH=$PATH:vasp路径/bin  # 注意这里的路径改为自己的安装�
 ulimit -s unlimited
 ```
 
-![42](.\images\42.png)
+![42](.\DFT教程 part1 VASP安装与学习推荐\42.png)
 
 ### 5. 测试VASP是否安装成功
 
 ​	完成上面所有步骤后，重启虚拟机。
 
-![43](.\images\43.png)
+![43](.\DFT教程 part1 VASP安装与学习推荐\43.png)
 
 ​	如上图所示，证明安装成功。
 
