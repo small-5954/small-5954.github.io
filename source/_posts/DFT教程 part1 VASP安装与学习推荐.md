@@ -89,19 +89,19 @@ categories:
 
 3. 选择“稍微安装操作系统”：我们等创建完再指定ISO源
 
-<img src=".\DFT教程 part1 VASP安装与学习推荐\3.png" alt="3" style="zoom:50%;" />
+{% asset_img 3.png %}
 
 4. 选择“Linux”，再选择“Centos8 64位”：
 
-<img src=".\DFT教程 part1 VASP安装与学习推荐\4.png" alt="4" style="zoom:50%;" />
+{% asset_img 4.png %}
 
 5. 虚拟机名称随意，位置必须全英文：
 
-<img src=".\DFT教程 part1 VASP安装与学习推荐\5.png" alt="5" style="zoom:50%;" />
+{% asset_img 5.png %}
 
 6. **注意：最大磁盘大小，建议能多给一些就多给一些，因为后续装的东西挺多的，建议至少60GB，也不要怕觉得给太大了会咋样，这个只是划分的空间，实际占据大小会根据真实大小调节，即你只有往centos中装了60GB的东西，才会占据60GB**
 
-<img src=".\DFT教程 part1 VASP安装与学习推荐\6.png" alt="6" style="zoom:50%;" />
+{% asset_img 6.png %}
 
 7. 这里就完成了创建，然后我们指定ISO路径：
 
